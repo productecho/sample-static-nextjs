@@ -5,12 +5,12 @@
   "description": "Next.js static export (SSG) sample — HTML files, no Node.js server at request time",
   "scripts": {
     "dev": "npx next dev",
-    "build": "NODE_ENV=production npx next build --webpack",
+    "build": "NODE_ENV=production npx next build",
     "start": "npx serve out -s -l tcp://0.0.0.0:${PORT:-3000}",
     "preview": "npx serve out -s -l tcp://0.0.0.0:${PORT:-3000}"
   },
   "engines": {
-    "node": ">=20.0.0",
+    "node": "20.x",
     "npm": ">=10.0.0"
   },
   "dependencies": {
