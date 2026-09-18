@@ -8,7 +8,7 @@ export default function HomePage() {
     <main>
       <h1>A journal that ships as files.</h1>
       <p className="lede">
-        This Next.js app uses Static Site Generation and{" "}
+        This Next.jss app uses Static Site Generation and{" "}
         <code>output: &quot;export&quot;</code>. Every page is HTML before a
         visitor arrives.
       </p>
